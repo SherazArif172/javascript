@@ -1,6 +1,6 @@
 //alert
 
-alert("are tou sure ?");
+alert("error is here ");
 
 // prompt
 
@@ -10,4 +10,12 @@ if (age == null) {
   document.write("age is not full filled");
 } else {
   document.write(`your age is ${age}`);
+}
+
+//confirm
+
+let confirmed = confirm("are you sure ?");
+
+if (confirmed) {
+  document.write("get lost");
 }
